@@ -1,3 +1,38 @@
-h1 {
-    color: red;
+body {
+    font-family: Arial, sans-serif;
+}
+/* .nav-buttons {
+
+} */
+.top-left-buttons {
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.top-right-buttons {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.google-logo > img {
+    display: block;
+    margin: 20% auto 0 auto;
+    height: 92px;
+}
+
+.search-bar > input {
+    display: block;
+    margin: 0 auto;
+}
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.search-buttons > button {
+    margin: 5px;
 }
