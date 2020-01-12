@@ -4,19 +4,41 @@ body {
 }
 
 /* Navbar Formatting */
-ul.navbar {
-    display:inline;
-    padding-top: 15px;
+#nav-container {
+    display: flex;
+    justify-content: space-between;
 }
-.navbar > li.top-left-buttons {
-    float: left;
+
+#top-left-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     padding-left: 15px;
     padding-top: 20px;
 }
-.navbar > li.top-right-buttons {
-    float: right;
+
+#top-left-container > *{
+    margin-right: 15px;
+}
+#top-right-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     padding-right: 15px;
     padding-top: 20px;
+}
+#top-right-container > * {
+    margin-left: 15px;
+}
+#top-right-container > button {
+    font-size: 14px;
+    padding: 2px 14px;
+    height: 28px;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
 }
 
 /* Main logo formatting */
